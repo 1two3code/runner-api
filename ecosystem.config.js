@@ -20,7 +20,7 @@
       output: './logs/access.log', // pm2 log file
       error: './logs/error.log', // pm2 error log file
       env: { // environment variable
-        PORT: 3000,
+        PORT: 3003,
         NODE_ENV: 'production',
       },
     },
@@ -39,7 +39,7 @@
       output: './logs/access.log', // pm2 log file
       error: './logs/error.log', // pm2 error log file
       env: { // environment variable
-        PORT: 3000,
+        PORT: 3003,
         NODE_ENV: 'development',
       },
     },
